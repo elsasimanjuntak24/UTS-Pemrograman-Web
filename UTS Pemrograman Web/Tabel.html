@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabel Data Penggemar Pororo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e0f7fa;
+        }
+        header {
+            background-color: #00bcd4;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .logo {
+            width: 200px;
+        }
+        .sidebar {
+            background-color: #ffeb3b;
+            padding: 15px;
+            width: 200px;
+            position: fixed;
+            height: 100%;
+        }
+        .sidebar ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .sidebar li {
+            margin: 10px 0;
+        }
+        .sidebar a {
+            text-decoration: none;
+            color: #000;
+        }
+        main {
+            margin-left: 220px;
+            padding: 20px;
+        }
+        footer {
+            text-align: center;
+            background-color: #00bcd4;
+            color: white;
+            padding: 10px;
+            position: relative;
+        }
+        .table-container {
+            overflow-y: auto;
+            max-height: 400px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #ffeb3b;
+            position: sticky;
+            top: 0;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        tr:hover {
+            background-color: #d1c4e9;
+        }
+        @media (max-width: 600px) {
+            .sidebar {
+                width: 100%;
+                position: relative;
+                height: auto;
+            }
+            main {
+                margin-left: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tabel Data Penggemar Pororo</h1>
+        <img src="logopororo.png" alt="Logo Pororo" class="logo">
+    </header>
+    <nav class="sidebar">
+        <ul>
+            <li><a href="Halaman.html">Beranda</a></li>
+            <li><a href="Formulir.html">Formulir</a></li>
+            <li><a href="Tabel.html">Tabel Data</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Daftar Penggemar</h2>
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>No</th>
+                        <th>Nama</th>
+                        <th>Email</th>
+                        <th>Tanggal Lahir</th>
+                        <th>Karakter Favorit</th>
+                    </tr>
+                </thead>
+                <>
+                    <tr><td>1</td><td>John Doe</td><td>john@example.com</td><td>2000-01-01</td><td>Pororo</td></tr>
+                    <tr><td>2</td><td>Jane Doe</td><td>jane@example.com</td><td>2001-02-15</td><td>Crong</td></tr>
+                    <tr><td>3</td><td>James Smith</td><td>james.smith@example.com</td><td>1998-07-08</td><td>Eddy</td></tr>
+                    <tr><td>4</td><td>Maria Garcia</td><td>maria.garcia@example.com</td><td>2003-05-25</td><td>Poby</td></tr>
+                    <tr><td>5</td><td>David Brown</td><td>david.brown@example.com</td><td>1997-12-12</td><td>Pororo</td></tr>
+                    <tr><td>6</td><td>Linda Johnson</td><td>linda.johnson@example.com</td><td>2002-11-05</td><td>Crong</td></tr>
+                    <tr><td>7</td><td>Robert Miller</td><td>robert.miller@example.com</td><td>1999-08-16</td><td>Eddy</td></tr>
+                    <tr><td>8</td><td>Patricia Wilson</td><td>patricia.wilson@example.com</td><td>2004-03-21</td><td>Poby</td></tr>
+                    <tr><td>9</td><td>Michael Martinez</td><td>michael.martinez@example.com</td><td>2000-10-30</td><td>Pororo</td></tr>
+                    <tr><td>10</td><td>Barbara Anderson</td><td>barbara.anderson@example.com</td><td>2005-09-14</td><td>Crong</td></tr>
+                    <tr><td>11</td><td>William Thomas</td><td>william.thomas@example.com</td><td>1998-04-07</td><td>Eddy</td></tr>
+                    <tr><td>12</td><td>Elizabeth Taylor</td><td>elizabeth.taylor@example.com</td><td>2001-06-22</td><td>Poby</td></tr>
+                    <tr><td>13</td><td>Christopher White</td><td>christopher.white@example.com</td><td>1996-12-27</td><td>Pororo</td></tr>
+                    <tr><td>14</td><td>Jessica Harris</td><td>jessica.harris@example.com</td><td>2003-05-03</td><td>Crong</td></tr>
+                    <tr><td>15</td><td>Joshua Lee</td><td>joshua.lee@example.com</td><td>1999-02-11</td><td>Eddy</td></tr>
+                    <tr><td>16</td><td>Sarah Walker</td><td>sarah.walker@example.com</td><td>2005-07-09</td><td>Poby</td></tr>
+                    <tr><td>17</td><td>Matthew Lewis</td><td>matthew.lewis@example.com</td><td>2002-09-19</td><td>Pororo</td></tr>
+                    <tr><td>18</td><td>Ashley Hall</td><td>ashley.hall@example.com</td><td>2000-11-02</td><td>Crong</td></tr>
+                    <tr><td>19</td><td>Andrew Allen</td><td>andrew.allen@example.com</td><td>1997-03-29</td><td>Eddy</td></tr>
+                    <tr><td>20</td><td>Emily Young</td><td>emily.young@example.com</td><td>2004-12-10</td><td>Poby</td></tr>
+                    <tr><td>21</td><td>Daniel King</td><td>daniel.king@example.com</td><td>1999-06-08</td><td>Pororo</td></tr>
+                    <tr><td>22</td><td>Amy Scott</td><td>amy.scott@example.com</td><td>2002-10-17</td><td>Crong</td></tr>
+                    <tr><td>23</td><td>Joseph Green</td><td>joseph.green@example.com</td><td>1998-01-22</td><td>Eddy</td></tr>
+                    <tr><td>24</td><td>Karen Adams</td><td>karen.adams@example.com</td><td>2003-08-05</td><td>Poby</td></tr>
+                    <tr><td>25</td><td>Jason Baker</td><td>jason.baker@example.com</td><td>2000-05-12</td><td>Pororo</td></tr>
+                    <tr><td>26</td><td>Lisa Nelson</td><td>lisa.nelson@example.com</td><td>1996-09-30</td><td>Crong</td></tr>
+                    <tr><td>27</td><td>Steven Carter</td><td>steven.carter@example.com</td><td>1997-12-22</td><td>Eddy</td></tr>
+                    <tr><td>28</td><td>Kimberly Mitchell</td><td>kimberly.mitchell@example.com</td><td>2004-07-18</td><td>Poby</td></tr>
+                    <tr><td>29</td><td>Brian Perez</td><td>brian.perez@example.com</td><td>1998-04-25</td><td>Pororo</td></tr>
+                    <tr><td>30</td><td>Angela Roberts</td><td>angela.roberts@example.com</td><td>2005-03-07</td><td>Crong</td></tr>
+                    <tr><td>31</td><td>Kevin Turner</td><td>kevin.turner@example.com</td><td>1999-10-16</td><td>Eddy</td></tr>
+                    <tr><td>32</td><td>Michelle Phillips</td><td>michelle.phillips@example.com</td><td>2002-12-23</td><td>Poby</td></tr>
+                    <tr><td>33</td><td>George Campbell</td><td>george.campbell@example.com</td><td>1997-11-15</td><td>Pororo</td></tr>
+                    <tr><td>34</td><td>Emma Parker</td><td>emma.parker@example.com</td><td>2001-01-05</td><td>Crong</td></tr>
+                    <tr><td>35</td><td>Charles Evans</td><td>charles.evans@example.com</td><td>2000-03-12</td><td>Eddy</td></tr>
+                    <tr><td>36</td><td>Laura Edwards</td><td>laura.edwards@example.com</td><td>2003-06-30</td><td>Poby</td></tr>
+                    <tr><td>37</td><td>Eric Collins</td><td>eric.collins@example.com</td><td>1999-09-04</td><td>Pororo</td></tr>
+                    <tr><td>38</td><td>Nancy Stewart</td><td>nancy.stewart@example.com</td><td>2002-04-11</td><td>Crong</td></tr>
+                    <tr><td>39</td><td>Frank Sanchez</td><td>frank.sanchez@example.com</td><td>1998-07-25</td><td>Eddy</td></tr>
+                    <tr><td>40</td><td>Betty Morris</td><td>betty.morris@example.com</td><td>2004-05-17</td><td>Poby</td></tr>
+                    <tr><td>41</td><td>Edward Rogers</td><td>edward.rogers@example.com</td><td>1997-03-19</td><td>Pororo</td></tr>
+                    <tr><td>42</td><td>Dorothy Cook</td><td>dorothy.cook@example.com</td><td>2001-11-22</td><td>Crong</td></tr>
+                    <tr><td>43</td><td>Donald Bell</td><td>donald.bell@example.com</td><td>2003-09-10</td><td>Eddy</td></tr>
+                    <tr><td>44</td><td>Rebecca Murphy</td><td>rebecca.murphy@example.com</td><td>2000-08-24</td><td>Poby</td></tr>
+                    <tr><td>45</td><td>Mark Bailey</td><td>mark.bailey@example.com</td><td>1999-10-29</td><td>Pororo</td></tr>
+                    <tr><td>46</td><td>Carol Rivera</td><td>carol.rivera@example.com</td><td>2002-02-18</td><td>Crong</td></tr>
+                    <tr><td>47</td><td>Kenneth Cooper</td><td>kenneth.cooper@example.com</td><td>1998-01-04</td><td>Eddy</td></tr>
+                    <tr><td>48</td><td>Susan Richardson</td><td>susan.richardson@example.com</td><td>2005-06-28</td><td>Poby</td></tr>
+                    <tr><td>49</td><td>Paul Cox</td><td>paul.cox@example.com</td><td>2001-02-01</td><td>Pororo</td></tr>
+                    <tr><td>50</td><td>Karen Howard</td><td>karen.howard@example.com</td><td>2000-12-09</td><td>Crong</td></tr>
+                  </tbody>
+            </table>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Pororo Fan Club</p>
+    </footer>
+</body>
+</html>
